@@ -1,0 +1,38 @@
+/*Tablet*/
+@media screen and (min-width: 600px) {
+
+  
+}
+
+/*desktop*/
+@media screen and (min-width: 1150px) {
+
+    /*Navigation*/
+  .hamburger-menu {
+    display: none;
+  }
+
+  nav {
+    display: inline-block;
+    position: static;
+    padding: 1rem 2rem
+  }
+
+  nav li {
+      padding: 0;
+  }
+
+  ul {
+      flex-direction: row;
+      padding: 0;
+  }
+  .logo img {
+    width: 320px;
+  }
+
+  /*Main*/
+
+  .sidebar-text {
+    padding: 1.5rem;
+  }
+}
