@@ -95,7 +95,7 @@ li:hover a {
   background: url(/images/bedroom.jpg) center, no-repeat;
   background-size: cover;
   min-height: 600px;
-  flex: 3;
+  flex: 0.4;
 }
 
 .sidebar {
@@ -115,7 +115,7 @@ li:hover a {
 }
 
 .sidebar-text {
-  padding: 2.5rem;
+  padding: .5rem;
 }
 
 .sidebar-text > * {

@@ -1,6 +1,12 @@
 /*Tablet*/
 @media screen and (min-width: 600px) {
+  .bed-image {
+    flex: 2;
+  }
 
+  .sidebar-text {
+    padding: 2.5rem;
+  }
   
 }
 
@@ -34,5 +40,9 @@
 
   .sidebar-text {
     padding: 1.5rem;
+  }
+
+  .bed-image {
+    flex: 3;
   }
 }
