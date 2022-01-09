@@ -43,7 +43,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1rem;
+  padding: 0;
 }
 
 li a {
@@ -55,9 +55,12 @@ li a {
 }
 
 .active,
-li a:hover {
+li:hover,
+li a:hover,
+li:hover a {
   background: url(/assets/square-pattern.png);
   color: var(--color-text);
+  cursor: pointer;
 }
 
 .livingroom {
@@ -150,7 +153,6 @@ footer,
   padding: 1rem;
 }
 
-
 nav {
   display: none;
   position: absolute;
@@ -162,19 +164,20 @@ nav {
 }
 
 #hamburger-menu:checked ~ nav {
-    display: block;
-  }
+  display: block;
+}
 
-  #hamburger-menu {
-    display: none;
-  }
+#hamburger-menu {
+  display: none;
+}
 
-  nav li {
-    padding: 1rem 2rem;
-  }
+nav li {
+  padding: 1rem 0;
+}
 
-  .fa-bars {
-    padding: 8px;
-    font-size: 2em;
-    cursor: pointer;
-  }
+.fa-bars {
+  padding: 8px;
+  font-size: 2em;
+  cursor: pointer;
+  margin-left: 1rem;
+}
