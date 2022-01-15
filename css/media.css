@@ -7,6 +7,16 @@
   .sidebar-text {
     padding: 2.5rem;
   }
+
+  /*Products*/
+
+  .products-header {
+    font-size: 2.2rem;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
 }
 
 /*desktop*/
@@ -42,5 +52,10 @@
 
   .bed-image {
     flex: 3;
+  }
+
+  /*Products*/
+  .products-header {
+    background-position-y: -805px;
   }
 }

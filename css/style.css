@@ -4,12 +4,30 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+}
+
+img {
+  width: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
   height: 100%;
-  color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+h1 {
+  color: white;
 }
 
 main,
@@ -71,7 +89,7 @@ li:hover a {
 
 .text-box {
   padding: 2rem;
-  margin: 2rem 3rem;
+  margin: 1rem 3rem;
   font-size: 1.5rem;
 }
 
@@ -80,7 +98,8 @@ li:hover a {
 }
 
 .livingroom,
-.bedroom {
+.bedroom,
+.products-header {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   margin: 0 1rem 1.5rem 1rem;
@@ -140,6 +159,7 @@ button:hover {
 footer,
 .nav-container {
   background-color: var(--color-primary);
+  flex-shrink: 0;
 }
 
 .inner-footer {
@@ -180,4 +200,9 @@ nav li {
   font-size: 2em;
   cursor: pointer;
   margin-left: 1rem;
+  color: white;
+}
+
+.inner-footer {
+  color: white;
 }

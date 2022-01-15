@@ -1,0 +1,103 @@
+.products-header {
+  background: url(/images/products.jpg) center no-repeat;
+  background-size: cover;
+  min-height: 300px;
+  margin-top: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.8rem;
+  filter: saturate(1.3);
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 1rem;
+  font-weight: bold;
+}
+
+.filter {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.filter:hover,
+.filter:hover .filter-icon,
+.sort:hover,
+.sort:hover .down_arrow,
+.sort:hover .cls-11 {
+  color: var(--color-primary);
+  fill: var(--color-primary);
+  stroke: var(--color-primary);
+}
+
+.filter svg {
+  width: 25px;
+}
+
+.sort {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sort img {
+  width: 14px;
+}
+
+.products-grid {
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-gap: 16px;
+  margin-bottom: 2rem;
+}
+
+.product {
+  cursor: pointer;
+}
+
+.product img {
+  max-height: 325px;
+  object-fit: cover;
+}
+
+.product h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.product span {
+  font-weight: bold;
+}
+
+.product p {
+  font-style: italic;
+  color: var(--color-primary);
+  font-size: 14px;
+}
+
+.product:hover h2 {
+  text-decoration: underline;
+}
+
+.image-container {
+  position: relative;
+}
+
+#heart-icon {
+  position: absolute;
+  width: 35px;
+  right: 16px;
+  top: 16px;
+  transition: 0.5s;
+}
+
+#heart-icon:hover {
+  transform: scale(1.1);
+}
