@@ -2,4 +2,8 @@
     --color-primary: #C29C3F;
     --color-secondary: #DAC38B;
     --color-text: #2F2F2F;
+
+    --font-primary: verdana, Geneva, Tahoma, sans-serif;
+    --font-headings: "futura pt bold", sans-serif;
+    --font-products-header:"futura pt regular", serif;
 }

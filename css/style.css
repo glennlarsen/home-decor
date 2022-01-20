@@ -1,5 +1,20 @@
 @import "imports/variables.css";
 
+@font-face {
+  font-family: 'calendas';
+  src: url(../fonts/Calendas-Bold.otf);
+}
+
+@font-face {
+  font-family: 'futura pt bold';
+  src: url(../fonts/Futura/Futura/FuturaPTBold.otf);
+}
+
+@font-face {
+  font-family: 'futura pt regular';
+  src: url(../fonts/Futura/FuturaPTMedium.otf);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -17,10 +32,15 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: var(--font-primary);
   display: flex;
   flex-direction: column;
 }
+
+h1, h2 ,h3 {
+  font-family: var(--font-headings);
+}
+
 
 .wrapper {
   flex: 1 0 auto;
@@ -28,6 +48,7 @@ body {
 
 h1 {
   color: white;
+  margin-bottom: 1rem;
 }
 
 main,
@@ -88,8 +109,8 @@ li:hover a {
 }
 
 .text-box {
-  padding: 2rem;
-  margin: 1rem 3rem;
+  padding: 1rem;
+  margin: 1rem 1rem;
   font-size: 1.5rem;
 }
 
@@ -133,6 +154,7 @@ li:hover a {
   justify-content: center;
 }
 
+
 .sidebar-text {
   padding: 0.5rem;
 }
@@ -150,6 +172,7 @@ button {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   cursor: pointer;
   transition: 0.5s;
+  font-size: 15px;
 }
 
 button:hover {

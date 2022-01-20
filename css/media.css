@@ -8,10 +8,19 @@
     padding: 2.5rem;
   }
 
+  .sidebar h2 {
+    font-size: 1.7rem;
+  }
+
+  .text-box {
+    padding: 2rem;
+    margin: 1rem 3rem;
+  }
+
   /*Products*/
 
-  .products-header {
-    font-size: 2.2rem;
+  h1 {
+    font-size: 3rem;
   }
 
   .products-grid {
