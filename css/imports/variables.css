@@ -1,9 +1,9 @@
 :root {
-    --color-primary: #C29C3F;
-    --color-secondary: #DAC38B;
-    --color-text: #2F2F2F;
+  --color-primary: #c29c3f;
+  --color-secondary: #dac38b;
+  --color-text: #2f2f2f;
 
-    --font-primary: verdana, Geneva, Tahoma, sans-serif;
-    --font-headings: "futura pt bold", sans-serif;
-    --font-products-header:"futura pt regular", serif;
+  --font-primary: verdana, Geneva, Tahoma, sans-serif;
+  --font-headings: "futura pt bold", sans-serif;
+  --font-products-header: "futura pt regular", sans-serif;
 }
